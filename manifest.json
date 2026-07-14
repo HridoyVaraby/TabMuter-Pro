@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Auto Website Muter",
   "version": "1.0.0",
-  "description": "Automatically mute audio from websites you choose.",
+  "description": "Automatically and persistently mute audio from selected websites, domains, and Chrome tabs.",
   "permissions": ["storage", "tabs"],
   "icons": {
     "16": "assets/icons/icon16.png",
