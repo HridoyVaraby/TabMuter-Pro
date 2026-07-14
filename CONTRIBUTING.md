@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve Auto Website Muter. Contributions of code, documentation, tests, accessibility fixes, and design refinements are welcome.
+Thank you for helping improve TabMuter Pro. Contributions of code, documentation, tests, accessibility fixes, and design refinements are welcome.
 
 ## Before starting
 

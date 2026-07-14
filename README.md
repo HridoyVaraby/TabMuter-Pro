@@ -1,4 +1,4 @@
-# TabMuter Pro — Auto Website Muter Chrome Extension
+# TabMuter Pro — Automatically Mute Websites and Chrome Tabs
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-4285F4?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-007BFF)](manifest.json)
@@ -39,7 +39,7 @@ Common use cases include muting news sites with autoplay videos, silencing socia
 3. Enable **Developer mode**.
 4. Select **Load unpacked**.
 5. Choose the repository folder containing `manifest.json`.
-6. Optionally pin **Auto Website Muter** from Chrome's extensions menu.
+6. Optionally pin **TabMuter Pro** from Chrome's extensions menu.
 
 Chrome does not automatically update unpacked extensions. Pull or download new releases, then select **Reload** on the extension card.
 

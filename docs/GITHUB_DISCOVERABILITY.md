@@ -5,7 +5,7 @@ Use this file as the canonical reference for repository settings that live on Gi
 ## Repository description
 
 ```text
-Open-source Manifest V3 Chrome extension that automatically and persistently mutes selected websites, domains, and browser tabs. Private, lightweight, and dependency-free.
+TabMuter Pro is an open-source Manifest V3 Chrome extension that automatically mutes selected websites, domains, and browser tabs. Private and dependency-free.
 ```
 
 ## Topics

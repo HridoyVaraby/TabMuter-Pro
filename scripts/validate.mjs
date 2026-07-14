@@ -30,7 +30,7 @@ async function readPngDimensions(relativePath) {
 }
 
 assert(manifest.manifest_version === 3, "manifest.json must use Manifest V3.");
-assert(manifest.name === "Auto Website Muter", "Unexpected extension name.");
+assert(manifest.name === "TabMuter Pro", "Unexpected extension name.");
 assert(manifest.background?.service_worker === "background.js", "Missing background service worker.");
 assert(manifest.action?.default_popup === "popup.html", "Missing default popup.");
 

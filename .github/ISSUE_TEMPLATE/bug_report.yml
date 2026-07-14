@@ -6,7 +6,7 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: Thank you for helping improve Auto Website Muter. Do not include private browsing data.
+      value: Thank you for helping improve TabMuter Pro. Do not include private browsing data.
   - type: input
     id: extension-version
     attributes:

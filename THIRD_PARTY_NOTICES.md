@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-Auto Website Muter has no bundled third-party runtime libraries, fonts, or third-party visual assets.
+TabMuter Pro has no bundled third-party runtime libraries, fonts, or third-party visual assets.
 
 ## Development and CI tooling
 

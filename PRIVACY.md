@@ -2,7 +2,7 @@
 
 **Effective date:** July 14, 2026
 
-Auto Website Muter is designed to perform its single purpose entirely inside Google Chrome: automatically muting tabs whose hostnames the user has selected.
+TabMuter Pro is designed to perform its single purpose entirely inside Google Chrome: automatically muting tabs whose hostnames the user has selected.
 
 ## Data processed
 
