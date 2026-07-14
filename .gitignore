@@ -1,0 +1,25 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors and local agent state
+.idea/
+.vscode/
+.agents/
+.codex/
+*.swp
+*~
+
+# Logs and local browser profiles
+*.log
+.chrome-profile/
+
+# Packaged extension artifacts and signing keys
+*.crx
+*.pem
+*.zip
+dist/
+
+# Image-generation working sources; final assets remain tracked
+assets/icon-chroma-source.png
+assets/store/promo-source.png
