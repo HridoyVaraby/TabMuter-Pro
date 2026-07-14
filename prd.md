@@ -8,8 +8,7 @@ TabMuter Pro is a lightweight Chrome Extension built with Manifest V3 that helps
 Allow users to manage a personal list of muted domains and ensure that all matching tabs are automatically muted, both immediately and on future visits.
 
 ### Product Name
-- Primary name: TabMuter Pro
-- Alternate internal reference: Auto Website Muter
+- Canonical name: TabMuter Pro
 
 ---
 

@@ -21,7 +21,7 @@ Do not access data that is not yours, disrupt other users, or perform testing ag
 
 ## Security design
 
-Auto Website Muter:
+TabMuter Pro:
 
 - Uses Manifest V3 and a non-persistent service worker.
 - Does not execute remote code.

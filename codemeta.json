@@ -1,0 +1,35 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "TabMuter Pro",
+  "description": "A free, open-source Manifest V3 Chrome extension that automatically and persistently mutes audio from selected websites, domains, and browser tabs.",
+  "codeRepository": "https://github.com/HridoyVaraby/TabMuter-Pro",
+  "issueTracker": "https://github.com/HridoyVaraby/TabMuter-Pro/issues",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "1.0.0",
+  "dateCreated": "2026-07-14",
+  "programmingLanguage": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "runtimePlatform": "Google Chrome",
+  "applicationCategory": "Browser Extension",
+  "keywords": [
+    "Chrome extension",
+    "Manifest V3",
+    "automatic website muter",
+    "mute Chrome tabs",
+    "domain audio control",
+    "autoplay audio blocker",
+    "browser extension",
+    "privacy-friendly",
+    "productivity",
+    "open source"
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://github.com/HridoyVaraby",
+    "name": "HridoyVaraby"
+  }
+}
