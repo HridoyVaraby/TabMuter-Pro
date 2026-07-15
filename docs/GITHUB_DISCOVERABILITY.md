@@ -36,7 +36,7 @@ The image is 1280 × 640 pixels, uses a solid background, and is under GitHub's 
 ## Suggested release title
 
 ```text
-TabMuter Pro v1.0.0 — Automatically Mute Websites and Chrome Tabs
+TabMuter Pro v1.1.0 — Hide or Reveal Saved Website Rules
 ```
 
 ## Suggested repository tagline

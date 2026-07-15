@@ -6,16 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-07-15
+
 ### Added
 
-- Open-source community documentation and GitHub contribution templates.
-- Dependency-free extension validation script and GitHub Actions workflow.
-- Privacy, security, and third-party notices.
-- Search-optimized README content, CodeMeta metadata, repository-topic guidance, and a GitHub social preview image.
+- Persistent per-domain privacy controls for masking and revealing saved hostnames in the popup.
+- Maintainer attribution and contributor-recognition guidance in the README.
 
 ### Changed
 
-- Standardized the extension, popup, metadata, and documentation under the canonical TabMuter Pro name.
+- Updated privacy, security, and contribution documentation for hostname masking preferences.
 
 ## [1.0.0] - 2026-07-14
 
@@ -27,3 +27,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Automatic muting during tab navigation and creation.
 - Managed domain list with remove-and-unmute actions.
 - Chrome extension icons and promotional artwork.
+- Open-source community documentation and GitHub contribution templates.
+- Dependency-free extension validation script and GitHub Actions workflow.
+- Privacy, security, and third-party notices.
+- Search-optimized README content, CodeMeta metadata, repository-topic guidance, and a GitHub social preview image.
+
+### Changed
+
+- Standardized the extension, popup, metadata, and documentation under the canonical TabMuter Pro name.

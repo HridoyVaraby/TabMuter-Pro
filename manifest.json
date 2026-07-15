@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "TabMuter Pro",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Automatically and persistently mute audio from selected websites, domains, and Chrome tabs.",
   "permissions": ["storage", "tabs"],
   "icons": {

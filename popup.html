@@ -210,7 +210,19 @@
         white-space: nowrap;
       }
 
-      .remove-button {
+      .domain-name.is-hidden {
+        color: var(--muted-ink);
+        letter-spacing: 0.13em;
+      }
+
+      .domain-actions {
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
+        gap: 5px;
+      }
+
+      .icon-button {
         display: grid;
         width: 25px;
         height: 25px;
@@ -219,15 +231,45 @@
         place-items: center;
         border: 0;
         border-radius: 7px;
+        cursor: pointer;
+        transition:
+          background-color 160ms ease,
+          color 160ms ease,
+          transform 160ms ease;
+      }
+
+      .icon-button svg {
+        width: 14px;
+        height: 14px;
+        pointer-events: none;
+      }
+
+      .privacy-button {
+        color: #36546f;
+        background: #e8f0f8;
+      }
+
+      .privacy-button:hover:not(:disabled) {
+        color: #173b5c;
+        background: #d7e5f2;
+        transform: scale(1.06);
+      }
+
+      .privacy-button.is-hidden {
+        color: #ffffff;
+        background: #36546f;
+      }
+
+      .privacy-button.is-hidden:hover:not(:disabled) {
+        background: #27445e;
+      }
+
+      .remove-button {
         color: #ffffff;
         background: var(--danger);
-        cursor: pointer;
         font-size: 15px;
         font-weight: 500;
         line-height: 1;
-        transition:
-          background-color 160ms ease,
-          transform 160ms ease;
       }
 
       .remove-button:hover:not(:disabled) {
@@ -235,7 +277,7 @@
         transform: scale(1.06);
       }
 
-      .remove-button:disabled {
+      .icon-button:disabled {
         cursor: wait;
         opacity: 0.55;
       }
