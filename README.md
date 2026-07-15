@@ -19,6 +19,7 @@ TabMuter Pro stores a list of exact hostnames locally in Chrome. When a matching
 - Apply changes immediately to every matching open tab.
 - Automatically mute matching tabs on future visits.
 - Manage saved hostnames from one scrollable list.
+- Hide sensitive hostnames behind password-style masking and reveal them with the eye button.
 - Keep preferences across browser restarts with local Chrome storage.
 - Work without accounts, analytics, advertisements, or network requests.
 
@@ -49,6 +50,7 @@ Chrome does not automatically update unpacked extensions. Pull or download new r
 2. Open the extension popup.
 3. Select **Mute This Website**.
 4. Select **Unmute This Website**, or use the remove button beside a saved hostname, to restore audio.
+5. Use the crossed-eye button beside a saved hostname to mask it. Select the eye button to reveal it again.
 
 Rules match exact hostnames. For example, `music.example.com` and `www.example.com` are managed independently.
 
@@ -75,6 +77,7 @@ The extension processes tab URLs locally and does not transmit them. See [PRIVAC
 
 - `popup.js` safely parses the active tab URL with the built-in `URL` API.
 - Muted hostnames are stored under `mutedDomains` in `chrome.storage.local`.
+- Hidden-list preferences are stored under `hiddenDomains`; hiding a hostname only masks it in the popup and does not change its mute rule.
 - Popup actions query open tabs and update every exact-hostname match.
 - `background.js` listens for tab URL changes and applies saved rules.
 - System pages such as `chrome://` URLs and `about:blank` are intentionally unsupported.
@@ -138,9 +141,19 @@ node scripts/validate.mjs
 
 ## Contributing and security
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before opening a pull request.
+All contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) before opening a pull request. Contributors whose work is merged will be acknowledged in this README.
 
 Please report vulnerabilities privately as described in [SECURITY.md](SECURITY.md), not through a public issue.
+
+## Maintainer and contributors
+
+TabMuter Pro was created and is maintained by **Hridoy Varaby** — [varabit.com](https://varabit.com).
+
+Contributors are an important part of this open-source project. Every contribution is welcome, and contributors will be recognized in this section as the community grows.
+
+### Contributors
+
+- **Hridoy Varaby** — creator and maintainer
 
 ## License
 

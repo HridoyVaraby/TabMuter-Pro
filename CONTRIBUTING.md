@@ -34,6 +34,7 @@ Manually verify at least the behavior affected by your change:
 - Muting the current hostname updates every matching open tab.
 - Unmuting or removing a hostname restores matching tabs.
 - Saved rules survive closing and reopening Chrome.
+- Hidden hostnames stay masked after reopening the popup and can be revealed again.
 - New navigation to a saved hostname is muted automatically.
 - Restricted pages keep the primary action disabled.
 - The popup remains keyboard accessible at 260 pixels wide.

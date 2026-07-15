@@ -27,5 +27,5 @@ TabMuter Pro:
 - Does not execute remote code.
 - Does not inject scripts into websites.
 - Does not send browsing activity or settings over the network.
-- Stores only the muted-hostname list in local extension storage.
+- Stores only muted hostnames and their popup masking preferences in local extension storage.
 - Uses the `storage` and `tabs` permissions for its user-facing feature.

@@ -6,8 +6,9 @@
   "codeRepository": "https://github.com/HridoyVaraby/TabMuter-Pro",
   "issueTracker": "https://github.com/HridoyVaraby/TabMuter-Pro/issues",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "dateCreated": "2026-07-14",
+  "dateModified": "2026-07-15",
   "programmingLanguage": [
     "JavaScript",
     "HTML",
@@ -30,6 +31,7 @@
   "author": {
     "@type": "Person",
     "@id": "https://github.com/HridoyVaraby",
-    "name": "HridoyVaraby"
+    "name": "Hridoy Varaby",
+    "url": "https://varabit.com"
   }
 }
